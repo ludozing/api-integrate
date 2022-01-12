@@ -1,6 +1,6 @@
 import React, { useEffect, useReducer } from 'react';
 import axios from 'axios';
-import useAsync from './useAsync';
+import useAsync from '../hooks/useAsync';
 
 async function getUsers() {
     const response = await axios.get(
