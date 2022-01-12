@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ApiExam from './ApiExam';
+// import PersonContext from './contexts/PersonContext';
+// import ContextExam from './ContextExam'
+// const persons = [
+//   {id:1, name: 'green', age:20},
+//   {id:2, name: 'blue', age:28}
+// ]
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ApiExam />
   </React.StrictMode>,
   document.getElementById('root')
 );
